@@ -139,7 +139,7 @@ int main()
         }
         break;
     case 2:
-        printf("\nComparação de cartas (Atributo: Área - em km²)\n");
+        printf("\nComparação de cartas (Atributo: Área)\n");
         printf("CARTA 1 - %s: %.2f\n", cidade1, area1);
         printf("CARTA 2 - %s: %.2f\n", cidade2, area2);
         if (area1 == area2)
@@ -156,7 +156,7 @@ int main()
         }
         break;
     case 3:
-        printf("\nComparação de cartas (Atributo: PIB - em bilhões de reais)\n");
+        printf("\nComparação de cartas (Atributo: PIB)\n");
         printf("CARTA 1 - %s: %.2f\n", cidade1, pib1);
         printf("CARTA 2 - %s: %.2f\n", cidade2, pib2);
         if (pib1 == pib2)
